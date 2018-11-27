@@ -12,3 +12,10 @@ Notes
 9) Implement a pod(Task definition) with Sidecar(like enforcer) container and application container
 10) Share the volume from enforcer with application container through dockerfile.
 11) Checkout KubCon.
+
+enforcer implementation - DOCKER SOCKET sits there and inject itself in every container and check system calls
+and detect undesirable network connection etc.
+
+"secomp" - Limit what system calls can be made and there's a general version that comes with docker and it uses ptrace.
+Adding those in runtime.
+Book by Liz Rice for security.

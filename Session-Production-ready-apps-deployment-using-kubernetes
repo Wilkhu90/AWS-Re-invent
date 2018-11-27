@@ -6,4 +6,5 @@
   c) setup of kubernetes in on-pem
 4) Cisco container platform used by SAP for on-prem Kubernetes
 5) Using CSR connection
-6) 
+6) Bringing IAM in On-prem for User access
+7) Kubernetes dashboards for the developers

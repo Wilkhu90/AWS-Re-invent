@@ -1,0 +1,14 @@
+Notes
+1) Security in different services in AWS
+2) Known vulnerabilities in dependencies - Could be used for exploits
+3) Scanning as part of the build process. - "microscanner"(Image scanner)
+4) Use --no-cache flag to avoid using last runtime result.
+5) Running scanners on regular basis
+6) Should you leave microscanner in the image??
+  a) Use staging for doing microscanning and avoid putting it in the image.
+7) Every vulnerability starts as Zero-day.
+8) If a executable other the expected "NGINX" example is Running, detection and stopping the executable should be done.
+9) Need to implement enforcer - Like how Aqua did for them for AWS solutions.
+9) Implement a pod(Task definition) with Sidecar(like enforcer) container and application container
+10) Share the volume from enforcer with application container through dockerfile.
+11) Checkout KubCon.

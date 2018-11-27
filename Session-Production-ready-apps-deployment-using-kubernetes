@@ -1,0 +1,9 @@
+1) Cisco hybrid solution for Kubernetes on AWS
+2) Talked about challenges in hybrid cloud
+3) Challeneges
+  a) User management in both cloud
+  b) Connectivity
+  c) setup of kubernetes in on-pem
+4) Cisco container platform used by SAP for on-prem Kubernetes
+5) Using CSR connection
+6) 

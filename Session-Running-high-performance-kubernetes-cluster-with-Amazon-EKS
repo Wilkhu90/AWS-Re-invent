@@ -1,0 +1,28 @@
+Notes
+
+1)Best practice for designig for performace
+  a) optimize docker container, worker nodes and workers.
+  b) Keep container small.
+  c) Multi-stage solution good approach
+  d) Stage 1 - build
+  e) Stage 2 - Add final product
+  f) Use minimilistic OS
+  g) Using go may not need OS at all
+  h) Burst of resources
+  *) Try using alpine, busybox or maybe ubuntu
+  *) Pods - One more containers.
+  *) Control plain
+  *) Optimize pods - Avoid Sidecar
+  *) Pod placement - Resource constraints, upper limit on resources.
+  *) Density of pods - Vertical/horizontal apps variation
+  *) Anti-affinity - API pods separate from UI.
+  *) Kubernetes 1.12 - Make sure to check out
+  *) Observe the performance - Grafana, Kibana
+  *) Optimizing worker nodes
+    *) Choose hardwares carefully
+2) Control plain
+  *) How AWS Optimize
+  *) Give pods native IP address in VPC
+  *) Mulitple ENI per instance, Mulitple pods per ENI
+  *)
+3) Demo - Database on kubernetes

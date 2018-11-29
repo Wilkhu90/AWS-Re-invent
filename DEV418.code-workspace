@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "DEV418Workspace"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"python.pythonPath": "DEV418venv/bin/python",
+		"cfnLint.path": "DEV418venv/bin/cfn-lint"
+	}
+}
